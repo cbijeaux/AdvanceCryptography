@@ -19,4 +19,4 @@ class EllipticCurve:
         self._a=a
         self._b=b
 ell=EllipticCurve(23,1,1)
-print(ell.isOnCurve(0,2))
+print(ell.isOnCurve(3,10))
